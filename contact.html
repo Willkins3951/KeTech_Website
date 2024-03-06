@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> sliding background images</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
+        <!======  LINK TO SWIPER JS=====>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+         <!======  LINK TO ICONSCOUT  ICONS=====>
+
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/solid.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css" />
+         
+         <!======  LINK TO CSS =====>
+
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="contact.css">
+
+
+    </head>
+
+<body>
+
+    <!================= NAV CONTAINER ==============>
+    <nav>
+        <div class="container nav-container">
+            <div class="logo">
+                <h2>                  
+                    <i class="fas fa-code-branch "></i>  
+                    <a href="index.html">KETECH</a>
+                </h2>
+            </div>
+    
+            <ul class="navlinks" id="links">
+                <li><a href="index.html" style="--i:0">home</a></li>
+                <li><a href="about.html" style="--i:1">about</a></li>
+                <li><a href="courses.html" style="--i:2">courses</a></li>
+                <li><a href="contact.html" style="--i:3">contact</a></li>
+            </ul>
+
+            <div class="menu-btn" id="open-menu">
+                <i class="fas fa-bars "></i>
+
+            </div>
+
+            <div class="menu-btn" id="close-menu"> 
+                <i class="fas fa-multiply "></i>
+
+            </div>
+            
+        </div>
+
+    </nav>
+
+    
+    <!============== CONTACT  SECTION ===========>
+
+<div class="main-contact-ctr">
+    <div class="container contact-ctr">
+        <div class="contact-info">
+            <img src="img.jpg">
+            <h3>Contact Us</h3>
+            <p>For urgent feedback and technology services, contact me through the provided details  below .I'll promptly respond to your inquiries instantly.</p>
+            
+
+            <span><i class="uil uil-whatsapp"></i> <a href="whatsaap.com">+254-769-703-272</a></span>
+            <span><i class="uil uil-envelope"></i> <a href="email.com">Ketech@gmail.com</a></span>
+            <span><i class="uil uil-location-pin-alt"></i> <a href="location.com">Kirinyaga, Kenya</a></span>
+            
+            <div class="icons">
+                <img src="ig.jpeg">
+                <img src="whatsapp.png">
+                <img src="fb.png">
+                <img src="twitterlogo.png" >
+
+            </div>
+        </div>
+
+    
+
+        <div class="contact-frm">
+            
+            <form action="https://formspree.io/f/xqkvnwlr" method="POST">
+                <div class="name-inputs">
+                    <div class="input">
+                        <i class="uil uil-user"></i>
+                        <input type="text" name="first name" placeholder="first name" required>
+                    </div>
+
+                    <div class="input">
+                        <i class="uil uil-user"></i>
+                        <input type="text" name="last name" placeholder="last name" required>
+                    </div>
+                </div>
+
+                <div class="input">
+                    <i class="uil uil-envelope-alt"></i>
+                    <input type="email" name="email" placeholder="enter email address" required>
+                </div>
+
+                <div class="input">
+                    <textarea name=" message"rows="6" placeholder="message" required></textarea>
+                    
+                </div>
+
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    
+<!==========FOOTER SECTION=======>
+
+<footer>
+    <div class="container ftr">
+        <div class="main-ftr-ctr">
+            
+            <div class="ftr-logo">
+                <h4>KETECH SCHOOL</h4>
+                <p>Empowering minds, shaping futures through innovative technology education.</p>
+            </div>
+    
+            <div class="ftr-links">
+                <h4>Permalinks</h4>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="courses.html">Courses</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        
+            <div class="ftr-primacy">
+                <h4>Primancy</h4>
+                <a href="#">Primancy Policy</a>
+                <a href="#">Terms and Conditions</a>
+                <a href="#">Refund Policy</a>
+            </div>
+        
+            <div class="ftr-contacts">
+                <h4>Contact Us</h4>
+                <a href="#">+254 769-703-272</a>
+                <a href="#">willkinskenyatta92@gmail.com</a>
+                <div class="ftr-icon">
+                    <img src="fb.png" >
+                    <img src="ig.jpeg" >
+                    <img src="youtubelogo.png" >
+                    <img src="ig.jpeg" >
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+</footer>
+
+
+<!========== COPY RIGHT & TO TOP BTN =======>
+
+<div class="sub-footer">
+        <div class=" container sub-ftr" > 
+            <a href="#">
+                Copyright<i class="uil uil-copyright"></i>2024 By Willkins | All Rights Reserved.
+            </a>
+    
+            <div class="up" id="scroll-up-btn">
+                <i class="uil uil-arrow-up"></i>
+            </div>   
+            
+        </div>
+            
+</div>
+
+
+
+    <script src="main.js" async defer></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+        
+</body>
+</html>

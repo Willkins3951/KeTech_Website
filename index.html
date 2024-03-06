@@ -1,1 +1,494 @@
+<!DOCTYPE html>
 
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> sliding background images</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
+        <!======  LINK TO SWIPER JS=====>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+         <!======  LINK TO ICONSCOUT  ICONS=====>
+
+         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/solid.css">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css" />
+         
+         <!======  LINK TO CSS =====>
+
+         <link rel="stylesheet" href="styles.css">
+
+
+</head>
+
+<body>
+
+    <!================= NAV CONTAINER ==============>
+    <nav>
+        <div class="container nav-container">
+            <div class="logo">
+                <h2>                  
+                    <i class="fas fa-code-branch "></i>  
+                    <a href="index.html">KETECH</a>
+                </h2>
+            </div>
+    
+            <ul class="navlinks" id="links">
+                <li><a href="index.html" style="--i:0">home</a></li>
+                <li><a href="about.html" style="--i:1">about</a></li>
+                <li><a href="courses.html" style="--i:2">courses</a></li>
+                <li><a href="contact.html" style="--i:3">contact</a></li>
+            </ul>
+
+            <div class="menu-btn" id="open-menu">
+                <i class="fas fa-bars "></i>
+
+            </div>
+
+            <div class="menu-btn" id="close-menu"> 
+                <i class="fas fa-multiply "></i>
+
+            </div>
+            
+        </div>
+    </nav>
+
+    
+   <div class="container section">
+        <div class="section-info">
+            <div class="section-info-header">
+                <h2>Grow your skills to advance your career path</h2>
+                <p>
+                    Ketech  school founded by Mr. Kenyatta's  offers diverse current technology  courses, fostering students with programming skills essential for personal growth , professional development and career advancement.
+
+                </p>
+                <button class="btn">
+                    <a href="index.html">Get Started</a>                    
+                </button>
+             
+            </div>
+
+            <div class="img">
+                <img src="img0.png" >
+            </div>
+        </div>
+
+
+   </div>
+
+
+   <!================= CATEGORIES SECTION ==============>
+
+   <div class="Categories-main">
+
+   <div class="container categories">
+       <div class="categories-info">
+            <h2>Categories </h2>
+            <p>
+                My school offers diverse courses catering to various interests. They're user-friendly, equipping you with essential skills across multiple categories efficiently.
+
+            </p>
+            <button class="btn btn-primary">
+                <a href="couses.html">Learn More</a>
+            </button>
+       </div>
+
+       <div class="categories2">
+            <div class="ctr">               
+                <i class="fas fa-b"></i>
+                <h5>BlockChain</h5>
+                <p>Explore distributed ledger technology through comprehensive online learning resources.</p>
+            </div>
+
+            <div class="ctr">               
+                <i class="fas fa-palette "></i>
+                <h5>Graphics Design</h5>
+                <p>Explore creativity through visual communication in Graphics Design course.</p>
+            </div>
+
+            <div class="ctr">
+                <i class="fas fa-usd "></i>
+                <h5>Finance</h5>
+                <p>Study financial management, investments, and economic analysis in Finance.</p>
+            </div>
+
+            <div class="ctr">
+                <i class="fas fa-dashboard"></i>
+                <h5>Marketing</h5>
+                <p>Learn strategies, analytics, consumer behavior, branding, and digital platforms effectively..</p>
+            </div>
+
+            <div class="ctr">
+                <i class="fas fa-music "></i>
+                <h5>Music</h5>
+                <p>Explore rhythm, melody, harmony; enhance creativity, expression, appreciation through music.</p>
+            </div>
+
+            <div class="ctr">                
+                <i class="fas fa-puzzle-piece "></i>
+                <h5>Business</h5>
+                <p>Business course: Enhances entrepreneurial skills, fostering innovation and strategic thinking.</p>
+            </div>
+       </div>
+
+   </div>
+   
+</div>
+
+  
+<!================= POPULAR COURSES SECTION ==============>
+
+<div class="container courses">
+
+    <h1>our popular courses</h1>
+
+    <div class="courses-ctr">
+        <div class="sub-ctr">
+            <img src="slider1.jpg">
+            <div>
+                <h3>Building Responsive UI with Bootstrap</h3>
+                <p>Explore responsive UI/UE design for social media websites in our comprehensive and  specialized full course on web development course.</p>
+                <button class="btn">
+                    <a href="courses.html">Learn More</a>
+                </button>
+            </div>
+        </div>
+
+        <div class="sub-ctr">
+            <img src="slider5.jpeg">
+            <div>
+                <h3>responsive smartHome website design</h3>
+                <p>Learn to craft responsive smart home websites; gain expertise in enhancing user experience for home automation control through intuitive design.</p>
+                <button class="btn">
+                    <a href="courses.html">Learn More</a>
+                </button>
+            </div>
+        </div>
+
+        <div class="sub-ctr">
+            <img src="slider7.jpeg">
+            <div >
+                <h3>responsive admin dashboard UI design</h3>
+                <p>Discover courses teaching efficient design strategies for adaptable admin dashboard interfaces, enhancing user experience and functionality.</p>
+                <button class="btn">
+                    <a href="courses.html">Learn More</a>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!================= FAQ's SECTION ==============>  
+
+<div class="faq-container">
+    <div class="container faqs">
+        <h1>Frequently Asked Questions</h1>
+
+        <div class="main-faqs-ctr">
+
+            <div class="faqs-ctr faq">
+                <div class="faq-icon">                   
+                    <i class="fas fa-plus "></i>
+                </div>
+                
+                <div class="faq-info">
+                    <h5>How do you i know the right courses for me?</h5>      
+                    <p >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor quasi dolore, sit laborum unde velit odio iure. Rem, eius eaque!</p>
+                </div>
+
+            </div>
+
+            <div class="faqs-ctr faq">
+                <div class="faq-icon">                   
+                    <i class="fas fa-plus "></i>
+                </div>
+                
+                <div class="faq-info">
+                    <h5>Do i get a certificate for every course i take?</h5>      
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor quasi dolore, sit laborum unde velit odio iure. Rem, eius eaque!</p>
+                </div>
+
+            </div>
+
+            <div class="faqs-ctr faq">
+                <div class="faq-icon">                   
+                    <i class="fas fa-plus "></i>
+                </div>
+                
+                <div class="faq-info">
+                    <h5>Do i get refund if the course isn't worthy my money?</h5>      
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor quasi dolore, sit laborum unde velit odio iure. Rem, eius eaque!</p>
+                </div>
+
+            </div>
+
+            <div class="faqs-ctr faq">
+                <div class="faq-icon">                   
+                    <i class="fas fa-plus "></i>
+                </div>
+                
+                <div class="faq-info">
+                    <h5>Will i have lifetime access to courses i purchase?</h5>      
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor quasi dolore, sit laborum unde velit odio iure. Rem, eius eaque!</p>
+                </div>
+
+            </div>
+
+            <div class="faqs-ctr faq">
+                <div class="faq-icon">                   
+                    <i class="fas fa-plus "></i>
+                </div>
+                
+                <div class="faq-info">
+                    <h5>Will you assist me to get my first job?</h5>      
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor quasi dolore, sit laborum unde velit odio iure. Rem, eius eaque!</p>
+                </div>
+
+            </div>
+
+            <div class="faqs-ctr faq">
+                <div class="faq-icon">                   
+                    <i class="fas fa-plus "></i>
+                </div>
+                
+                <div class="faq-info">
+                    <h5>What are the payment options?</h5>      
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor quasi dolore, sit laborum unde velit odio iure. Rem, eius eaque!</p>
+                </div>
+
+            </div>
+
+            <div class="faqs-ctr faq">
+                <div class="faq-icon">                   
+                    <i class="fas fa-plus "></i>
+                </div>
+                
+                <div class="faq-info">
+                    
+                    <h5>What are the requirements to start?</h5>      
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor quasi dolore, sit laborum unde velit odio iure. Rem, eius eaque!</p>
+                </div>
+
+            </div>
+
+            <div class="faqs-ctr faq">
+                <div class="faq-icon">                   
+                    <i class="fas fa-plus "></i>
+                </div>
+                
+                <div class="faq-info">
+                    <h5>Do i get all source code from projects?</h5>      
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor quasi dolore, sit laborum unde velit odio iure. Rem, eius eaque!</p>
+                </div>
+
+            </div>
+     
+        </div>
+        
+    </div>
+
+</div>          
+   
+
+
+<!================= TESTIMONIALS SECTION ==============>  
+
+<div class="container testimonials-ctr">
+<h1>Students' Testimonials</h1>
+<div class="testimonials">
+    <div class="testimonial">
+        <div class="img">
+            <img src="img.jpg" >
+        </div>
+        <div class="testimonial-name">
+            <h5>willy ken</h5>
+            <p>developer</p>
+        </div>
+        <div class="testimonial-info">
+            <p>"KeTech School's legacy of excellence shines through my achievements at XYZ Corporation. The comprehensive education and unwavering support prepared me for success in professional world. Forever grateful."</p>
+        </div>
+    </div>
+
+    <div class="testimonial">
+        <div class="img">
+            <img src="img1.jpg" >
+        </div>
+        <div class="testimonial-name">
+            <h5>taliah leeh</h5>
+            <p>Student</p>
+        </div>
+        <div class="testimonial-info">
+            <p>"Grateful to KeTech School for shaping my career at XYZ Foundation. The quality education and supportive community empowered me to make a difference. Proud to be an alumnus contributing to positive change!"</p>
+        </div>
+    </div>
+
+    <div class="testimonial">
+        <div class="img">
+            <img src="img2.jpg" >
+        </div>
+        <div class="testimonial-name">
+            <h5>baron ken</h5>
+            <p>programer</p>
+        </div>
+        <div class="testimonial-info">
+            <p>"Forever indebted to KeTech School for preparing me for success at XYZ Enterprises. The comprehensive education and unwavering support set me on the path to a rewarding career. Proud to represent my alma mater!"</p>
+        </div>
+    </div>
+
+    <div class="testimonial">
+        <div class="img">
+            <img src="img3.jpg" >
+        </div>
+        <div class="testimonial-name">
+            <h5>bradley brand</h5>
+            <p>hacker</p>
+        </div>
+        <div class="testimonial-info">
+            <p>"KeTech equipped me for excellence at XYZ Company. The transformative education and nurturing environment prepared me for the challenges of the professional world. Forever grateful for the foundation laid."</p>
+        </div>
+    </div>
+
+    <div class="testimonial">
+        <div class="img">
+            <img src="img4.jpg" >
+        </div>
+        <div class="testimonial-name">
+            <h5>mike john</h5>
+            <p>Student</p>
+        </div>
+        <div class="testimonial-info">
+            <p>"xceptional education led me to a fulfilling career at XYZ Firm. Grateful for the comprehensive learning experience and supportive community that shaped my success. Proud to represent my alma mater in the professional world!"</p>
+        </div>
+    </div>
+
+    <div class="testimonial">
+        <div class="img">
+            <img src="img5.jpg" >
+        </div>
+        <div class="testimonial-name">
+            <h5>jackie lm</h5>
+            <p>DevOps Engineer</p>
+        </div>
+        <div class="testimonial-info">
+            <p>"KeTech School's education opened doors to my fulfilling role at XYZ Agency. The holistic approach and dedicated faculty shaped my professional journey. Proud to be an alumnus making meaningful contributions to society."</p>
+        </div>
+    </div>
+
+    <div class="testimonial">
+        <div class="img">
+            <img src="img6.jpg" >
+        </div>
+        <div class="testimonial-name">
+            <h5>sandrah yanih</h5>
+            <p>doctor</p>
+        </div>
+        <div class="testimonial-info">
+            <p>"KeTech School's holistic approach empowered my journey to XYZ Industries. The education received laid a solid foundation for my thriving career. Grateful for the invaluable experience and lifelong connections forged."</p>
+        </div>
+    </div>
+
+    <div class="testimonial">
+        <div class="img">
+            <img src="img7.jpg" >
+        </div>
+        <div class="testimonial-name">
+            <h5>grace melody</h5>
+            <p>driver</p>
+        </div>
+        <div class="testimonial-info">
+            <p>"KeTech School's guidance paved my way to XYZ Corporation, where I excel. Lifelong lessons learned in an environment dedicated to nurturing growth. Grateful for the transformative journey and enduring support."</p>
+        </div>
+    </div>
+
+    <div class="testimonial">
+        <div class="img">
+            <img src="img8.jpg" >
+        </div>
+        <div class="testimonial-name">
+            <h5>purity purix</h5>
+            <p>operator</p>
+        </div>
+        <div class="testimonial-info">
+            <p>"Thanks to KeTech School, I flourished at ABC Corporation. Grateful for the solid foundation it provided, shaping my success every step. Proud to be an alumnus making waves in the professional world!"</p>
+        </div>
+    </div>
+    
+</div>  
+</div>
+
+
+<!==========FOOTER SECTION=======>
+
+<footer>
+    <div class="container ftr">
+        <div class="main-ftr-ctr">
+            
+            <div class="ftr-logo">
+                <h4>KETECH SCHOOL</h4>
+                <p>Empowering minds, shaping futures through innovative technology education.</p>
+            </div>
+    
+            <div class="ftr-links">
+                <h4>Permalinks</h4>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="courses.html">Courses</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        
+            <div class="ftr-primacy">
+                <h4>Primancy</h4>
+                <a href="#">Primancy Policy</a>
+                <a href="#">Terms and Conditions</a>
+                <a href="#">Refund Policy</a>
+            </div>
+        
+            <div class="ftr-contacts">
+                <h4>Contact Us</h4>
+                <a href="#">+254 769-703-272</a>
+                <a href="#">willkinskenyatta92@gmail.com</a>
+                <div class="ftr-icon">
+                    <img src="fb.png" >
+                    <img src="ig.jpeg" >
+                    <img src="youtubelogo.png" >
+                    <img src="ig.jpeg" >
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+</footer>
+
+
+<!========== COPY RIGHT & TO TOP BTN =======>
+
+<div class="sub-footer">
+        <div class=" container sub-ftr" > 
+            <a href="#">
+                Copyright<i class="uil uil-copyright"></i>2024 By Willkins | All Rights Reserved.
+            </a>
+    
+            <div class="up" id="scroll-up-btn">
+                <i class="uil uil-arrow-up"></i>
+            </div>   
+            
+        </div>
+            
+</div>
+
+
+    <script src="main.js" ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+        
+</body>
+</html>
